@@ -1,0 +1,87 @@
+.root{
+    -fx-alignment: CENTER;
+    -fx-font-size: 14;
+    -fx-background-image: url("background.jpg");
+}
+.hbRadioBtn{
+    -fx-alignment: CENTER;
+    -fx-spacing: 80;
+}
+.vbEffect{
+    -fx-spacing: 10;
+}
+.gridPaneSetTimeWidthHeight{
+    -fx-alignment: CENTER;
+    -fx-hgap: 20;
+    -fx-vgap: 10;
+}
+.hbGroupEffectAndTimeInterval{
+    -fx-alignment: CENTER;
+    -fx-spacing: 60;
+}
+.gridPaneOutputTextArea{
+    -fx-alignment: CENTER;
+    -fx-hgap: 30;
+    -fx-vgap: 10;
+}
+.gridButton{
+    -fx-alignment: CENTER;
+    -fx-hgap: 20;
+    -fx-vgap: 10;
+}
+.vb{
+    -fx-alignment: CENTER;
+    -fx-spacing: 30;
+}
+.label{
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 4, 0.0 , 0 , 0 );
+    -fx-padding: 8 6 8 6;
+    -fx-pref-rows: 2;
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-background-radius: 6;
+}
+.textField{
+    -fx-text-fill: white;
+    -fx-padding: 8 12 8 12;
+    -fx-background-radius: 16;
+    -fx-pref-rows: 2;
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+.textField:focused{
+    -fx-text-fill: black;
+    -fx-background-color: rgba(255,255,255,0.2);;
+}
+.TextareaOutput{
+    -fx-text-fill: white;
+    -fx-background-radius: 16;
+    -fx-background-color: rgba(0,0,0,0.2);
+    -fx-padding: 10;
+}
+
+.comboBox{
+    -fx-font-size: 13px;
+    -fx-text-fill: whitesmoke;
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+
+.radioBtn{
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: whitesmoke;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 4, 0.0 , 0 , 0 );
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#ff591a, #c73f0c);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 4 6 4 6;
+    -fx-font-size: 15;
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#c73f0c, #ff591a);
+}
